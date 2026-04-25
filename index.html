@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Isabela Siqueira — Desenvolvedora Front-End</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="nav" id="nav">
+    <div class="nav__inner container">
+      <img src="assets/img/Logo.png" alt="Logo" class="Logo">
+
+      <nav class="nav__links">
+        <a href="#home"  class="nav__link active">Home</a>
+        <a href="#sobre" class="nav__link">Sobre</a>
+        <a href="#tecnologias" class="nav__link">Tecnologias</a>
+        <a href="#projetos" class="nav__link">Projetos</a>
+        <a href="#contato" class="nav__link">Contato</a>
+      </nav>
+
+      <a href="#contato" class="btn btn--primary">Contrata-me</a>
+
+      <button class="nav__hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <div class="nav__mobile" id="mobileMenu">
+      <a href="#home"  class="nav__link">Home</a>
+      <a href="#sobre" class="nav__link">Sobre</a>
+      <a href="#tecnologias" class="nav__link">Tecnologias</a>
+      <a href="#projetos" class="nav__link">Projetos</a>
+      <a href="#contato" class="nav__link">Contato</a>
+      <a href="#contato" class="btn btn--primary" style="margin-top:.5rem">Contrata-me</a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero section--dark" id="home">
+    <div class="hero__bg-orb hero__bg-orb--1"></div>
+    <div class="hero__bg-orb hero__bg-orb--2"></div>
+
+    <div class="container hero__inner">
+      <div class="hero__content" data-aos>
+        <span class="hero__greeting">OLÁ, MUNDO!</span>
+        <h1 class="hero__title">
+          Sou <span class="gradient-text">Isabela Siqueira</span>
+        </h1>
+        <p class="hero__role">Desenvolvedora Front-End Junior</p>
+        <p class="hero__desc">
+          Transformo ideias em sites bonitos e funcionais.<br />
+          Apaixonada por criar experiências digitais que encantam<br />
+          usuários e geram resultados reais.
+        </p>
+
+        <div class="hero__actions">
+          <a href="#projetos" class="btn btn--primary btn--lg">Ver Projetos</a>
+          <a href="assets/arquivos/Curriculo Isabela Siqueira da Silva.docx.pdf" class="btn btn--outline btn--lg" download="Curriculo Isabela Siqueira.docx.pdf">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            Download CV
+          </a>
+        </div>
+      </div>
+
+      <div class="hero__photo-wrap" data-aos data-delay="200">
+        <div class="hero__photo-frame">
+          <div class="hero__photo-placeholder">
+            <img src="assets/img/perfil.jpeg" alt="Foto de Isabela Siqueira">
+          </div>
+          <div class="hero__photo-glow"></div>
+        </div>
+        <div class="hero__code-tag">&lt;/&gt;</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TICKER -->
+  <div class="ticker">
+    <div class="ticker__track">
+      <span>BelaDev.</span><span>BelaDev.</span><span>BelaDev.</span><span>BelaDev.</span>
+      <span>BelaDev.</span><span>BelaDev.</span><span>BelaDev.</span><span>BelaDev.</span>
+      <span>BelaDev.</span><span>BelaDev.</span><span>BelaDev.</span><span>BelaDev.</span>
+      <span>BelaDev.</span><span>BelaDev.</span><span>BelaDev.</span><span>BelaDev.</span>
+    </div>
+  </div>
+
+  <!-- SOBRE -->
+  <section class="sobre section--alt" id="sobre">
+    <div class="container sobre__inner">
+      <div class="sobre__photo-col" data-aos>
+        <div class="sobre__img-frame">
+          <div class="sobre__img-placeholder">
+            <img src="assets/img/perfil2.jpeg" alt="Foto 2 de Isabela Siqueira">
+          </div>
+          <div class="sobre__img-border"></div>
+        </div>
+      </div>
+
+      <div class="sobre__text-col" data-aos data-delay="150">
+        <p class="section__eyebrow">SOBRE MIM</p>
+        <h2 class="section__title">
+          Criando experiências digitais <span class="gradient-text">com propósito</span>
+        </h2>
+        <p class="sobre__bio">
+          Sou Isabela Siqueira, desenvolvedora Front-end apaixonada por transformar design em código funcional e bonito. Comecei minha jornada no mundo do desenvolvimento web há cerca de um ano e desde então não parei de aprender.
+        </p>
+        <p class="sobre__bio">
+          Acredito que um bom front-end vai além do visual — é sobre criar interfaces acessíveis, performáticas e que realmente resolvem problemas reais para pessoas reais. Estou sempre buscando novas ferramentas e tendências para evoluir como profissional.
+        </p>
+
+        <div class="sobre__tags">
+          <div class="sobre__tag">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#e91e8c" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>Resende, Rio de Janeiro</span>
+          </div>
+          <div class="sobre__tag">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#e91e8c" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+            <span>Desenvolvimento de Sistemas</span>
+          </div>
+          <div class="sobre__tag">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#e91e8c" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+            <span>Português, Inglês B2</span>
+          </div>
+          <div class="sobre__tag">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#e91e8c" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+            <span>Freelance &amp; CLT</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TECNOLOGIAS -->
+  <section class="tech section--dark" id="tecnologias">
+    <div class="container">
+      <div class="section__header" data-aos>
+        <p class="section__eyebrow">STACK</p>
+        <h2 class="section__title">Minhas <span class="gradient-text">Tecnologias</span></h2>
+        <p class="section__subtitle">Ferramentas e tecnologias que uso para criar produtos digitais modernos e de qualidade</p>
+      </div>
+
+      <div class="tech__grid">
+        <!-- card -->
+        <div class="tech__card" data-aos data-delay="0">
+          <div class="tech__icon tech__icon--html">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.565-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z"/></svg>
+          </div>
+          <h3>HTML5</h3>
+          <div class="tech__bar"><div class="tech__fill" style="--p:90%"></div></div>
+          <span class="tech__pct">90%</span>
+        </div>
+
+        <div class="tech__card" data-aos data-delay="60">
+          <div class="tech__icon tech__icon--css">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm17.09 4.413L5.41 4.41l.213 2.622 10.125.002-.255 2.716h-6.64l.24 2.573h6.182l-.366 3.523-2.91.804-2.956-.81-.188-2.11h-2.61l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z"/></svg>
+          </div>
+          <h3>CSS3</h3>
+          <div class="tech__bar"><div class="tech__fill" style="--p:85%"></div></div>
+          <span class="tech__pct">85%</span>
+        </div>
+
+        <div class="tech__card" data-aos data-delay="120">
+          <div class="tech__icon tech__icon--js">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M0 0h24v24H0V0zm22.034 18.276c-.175-1.095-.888-2.015-3.003-2.873-.736-.345-1.554-.585-1.797-1.14-.091-.33-.105-.51-.046-.705.15-.646.915-.84 1.515-.66.39.12.75.42.976.9 1.034-.676 1.034-.676 1.755-1.125-.27-.42-.404-.601-.586-.78-.63-.705-1.469-1.065-2.834-1.034l-.705.089c-.676.165-1.32.525-1.71 1.005-1.14 1.291-.811 3.541.569 4.471 1.365 1.02 3.361 1.244 3.616 2.205.24 1.17-.87 1.545-1.966 1.41-.811-.18-1.26-.586-1.755-1.336l-1.83 1.051c.21.48.45.689.81 1.109 1.74 1.756 6.09 1.666 6.871-1.004.029-.09.24-.705.074-1.65l.046.067zm-8.983-7.245h-2.248c0 1.938-.009 3.864-.009 5.805 0 1.232.063 2.363-.138 2.711-.33.689-1.18.601-1.566.48-.396-.196-.597-.466-.83-.855-.063-.105-.11-.196-.127-.196l-1.825 1.125c.305.63.75 1.172 1.324 1.517.855.51 2.004.675 3.207.405.783-.226 1.458-.691 1.811-1.411.51-.93.402-2.07.397-3.346.012-2.054 0-4.109 0-6.179l.004-.056z"/></svg>
+          </div>
+          <h3>JavaScript</h3>
+          <div class="tech__bar"><div class="tech__fill" style="--p:60%"></div></div>
+          <span class="tech__pct">60%</span>
+        </div>
+
+        <div class="tech__card" data-aos data-delay="180">
+          <div class="tech__icon tech__icon--ts">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M1.125 0C.502 0 0 .502 0 1.125v21.75C0 23.498.502 24 1.125 24h21.75c.623 0 1.125-.502 1.125-1.125V1.125C24 .502 23.498 0 22.875 0zm17.363 9.75c.612 0 1.154.037 1.627.111a6.38 6.38 0 0 1 1.306.34v2.458a3.95 3.95 0 0 0-.643-.361 5.093 5.093 0 0 0-.717-.26 5.453 5.453 0 0 0-1.426-.2c-.3 0-.573.028-.819.086a2.1 2.1 0 0 0-.623.242c-.17.104-.3.229-.393.374a.888.888 0 0 0-.14.49c0 .196.053.373.156.529.104.156.252.304.443.444s.423.276.696.41c.273.135.582.274.926.416.47.197.892.407 1.266.628.374.222.695.473.963.753.268.279.472.598.614.957.142.359.214.776.214 1.253 0 .657-.125 1.21-.373 1.656a3.033 3.033 0 0 1-1.012 1.085 4.38 4.38 0 0 1-1.487.596c-.566.12-1.163.18-1.79.18a9.916 9.916 0 0 1-1.84-.164 5.544 5.544 0 0 1-1.512-.493v-2.63a5.033 5.033 0 0 0 3.237 1.2c.333 0 .624-.03.872-.09.249-.06.456-.144.623-.25.166-.108.29-.234.373-.38a1.023 1.023 0 0 0-.074-1.089 2.12 2.12 0 0 0-.537-.5 5.597 5.597 0 0 0-.807-.444 27.72 27.72 0 0 0-1.007-.436c-.918-.383-1.602-.852-2.053-1.405-.45-.553-.676-1.222-.676-2.005 0-.614.123-1.141.369-1.582.246-.441.58-.804 1.004-1.089a4.494 4.494 0 0 1 1.47-.629 7.536 7.536 0 0 1 1.77-.201zm-15.113.188h9.563v2.166H9.506v9.646H6.789v-9.646H3.375z"/></svg>
+          </div>
+          <h3>TypeScript</h3>
+          <div class="tech__bar"><div class="tech__fill" style="--p:60%"></div></div>
+          <span class="tech__pct">60%</span>
+        </div>
+
+        <div class="tech__card" data-aos data-delay="240">
+          <div class="tech__icon tech__icon--react">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path fill="rgb(116, 192, 252)" d="M482.2 241.2C476.8 239.4 471.4 237.7 466 236.1C466.9 232.4 467.7 228.7 468.5 225C480.8 165.4 472.7 117.5 445.4 101.7C419.1 86.6 376.2 102.3 332.8 140.1C328.5 143.8 324.3 147.7 320.3 151.6C317.6 149 314.8 146.4 312 143.9C266.5 103.5 220.9 86.5 193.6 102.4C167.4 117.6 159.6 162.7 170.6 219.1C171.7 224.7 172.9 230.2 174.3 235.8C167.9 237.6 161.6 239.6 155.7 241.7C102.3 260.2 64 289.4 64 319.6C64 350.8 104.8 382.1 160.3 401.1C164.8 402.6 169.3 404.1 173.9 405.4C172.4 411.4 171.1 417.3 169.9 423.4C159.4 478.9 167.6 522.9 193.8 538C220.8 553.6 266.2 537.6 310.4 498.9C313.9 495.8 317.4 492.6 320.9 489.2C325.3 493.5 329.9 497.6 334.5 501.6C377.3 538.4 419.6 553.3 445.7 538.2C472.7 522.6 481.5 475.3 470.1 417.7C469.2 413.3 468.2 408.8 467.1 404.2C470.3 403.3 473.4 402.3 476.5 401.3C534.2 382.2 576 351.3 576 319.6C576 289.3 536.6 259.9 482.2 241.2zM346.9 156.3C384.1 123.9 418.8 111.2 434.6 120.3C451.5 130 458 169.2 447.4 220.7C446.7 224.1 446 227.4 445.1 230.7C422.9 225.7 400.4 222.1 377.8 220.1C364.8 201.5 350.6 183.7 335.2 167C339.1 163.3 342.9 159.8 346.9 156.3zM231.2 371.5C236.3 380.2 241.5 388.9 247 397.4C231.4 395.7 215.9 393.2 200.6 389.9C205 375.5 210.5 360.6 216.9 345.4C221.5 354.2 226.2 362.9 231.2 371.5zM200.9 251.2C215.3 248 230.6 245.4 246.5 243.4C241.2 251.7 236 260.2 231.1 268.8C226.2 277.3 221.4 286 216.9 294.8C210.6 279.9 205.3 265.3 200.9 251.2zM228.3 320.1C234.9 306.3 242.1 292.8 249.7 279.5C257.3 266.2 265.5 253.3 274.1 240.6C289.1 239.5 304.4 238.9 320 238.9C335.6 238.9 351 239.5 365.9 240.6C374.4 253.2 382.5 266.1 390.2 279.3C397.9 292.5 405.1 306 411.9 319.7C405.2 333.5 398 347.1 390.3 360.5C382.7 373.8 374.6 386.7 366.1 399.5C351.2 400.6 335.7 401.1 320 401.1C304.3 401.1 289.1 400.6 274.4 399.7C265.7 387 257.5 374 249.8 360.7C242.1 347.4 235 333.9 228.3 320.1zM408.9 371.3C414 362.5 418.8 353.6 423.5 344.6C429.9 359.1 435.5 373.8 440.4 388.9C424.9 392.4 409.2 395.1 393.4 396.9C398.8 388.5 403.9 379.9 408.9 371.3zM423.3 294.8C418.6 286 413.8 277.2 408.8 268.6C403.9 260.1 398.8 251.7 393.5 243.4C409.6 245.4 425 248.1 439.4 251.4C434.8 266.2 429.4 280.6 423.3 294.8zM320.2 182.3C330.7 193.7 340.6 205.7 349.8 218.1C330 217.2 310.1 217.2 290.3 218.1C300.1 205.2 310.2 193.2 320.2 182.3zM204.2 121C221 111.2 258.3 125.2 297.6 160C300.1 162.2 302.6 164.6 305.2 167C289.7 183.7 275.4 201.5 262.3 220.1C239.7 222.1 217.3 225.6 195.1 230.5C193.8 225.4 192.7 220.2 191.6 215C182.2 166.6 188.4 130.1 204.2 121zM179.7 384.6C175.5 383.4 171.4 382.1 167.3 380.7C146 374 121.8 363.4 104.3 349.5C94.2 342.5 87.4 331.7 85.5 319.6C85.5 301.3 117.1 277.9 162.7 262C168.4 260 174.2 258.2 180 256.5C186.8 278.2 195 299.5 204.5 320.1C194.9 341 186.6 362.6 179.7 384.6zM296.3 482.6C279.8 497.7 260.7 509.7 239.9 517.9C228.8 523.2 216 523.7 204.6 519.2C188.7 510 182.1 474.7 191.1 427.2C192.2 421.6 193.4 416 194.8 410.5C217.2 415.3 239.8 418.6 262.7 420.3C275.9 439 290.4 456.9 305.9 473.7C302.7 476.8 299.5 479.8 296.3 482.6zM320.8 458.3C310.6 447.3 300.4 435.1 290.5 422C300.1 422.4 310 422.6 320 422.6C330.3 422.6 340.4 422.4 350.4 421.9C341.2 434.6 331.3 446.7 320.8 458.3zM451.5 488.3C450.6 500.5 444.6 511.9 435 519.6C419.1 528.8 385.2 516.8 348.6 485.4C344.4 481.8 340.2 477.9 335.9 473.9C351.2 457 365.3 439.1 378.1 420.3C401 418.4 423.8 414.9 446.3 409.8C447.3 413.9 448.2 418 449 422C453.9 443.6 454.7 466.1 451.5 488.3zM469.7 380.8C466.9 381.7 464.1 382.6 461.2 383.4C454.2 361.6 445.6 340.3 435.7 319.6C445.3 299.2 453.4 278.2 460.2 256.7C465.4 258.2 470.4 259.8 475.2 261.4C521.8 277.4 554.5 301.2 554.5 319.4C554.5 339 519.6 364.3 469.7 380.8zM320 365.8C345.3 365.8 365.8 345.3 365.8 320C365.8 294.7 345.3 274.2 320 274.2C294.7 274.2 274.2 294.7 274.2 320C274.2 345.3 294.7 365.8 320 365.8z"/></svg>
+          </div>
+          <h3>React</h3>
+          <div class="tech__bar"><div class="tech__fill" style="--p:35%"></div></div>
+          <span class="tech__pct">35%</span>
+        </div>
+
+        <div class="tech__card" data-aos data-delay="300">
+          <div class="tech__icon tech__icon--git">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.546 10.93L13.067.452c-.604-.603-1.582-.603-2.188 0L8.708 2.627l2.76 2.76c.645-.215 1.379-.07 1.889.441.516.515.658 1.258.438 1.9l2.658 2.66c.645-.223 1.387-.078 1.9.435.721.72.721 1.884 0 2.604-.719.719-1.881.719-2.6 0-.539-.541-.674-1.337-.404-1.996L12.86 8.955v6.525c.176.086.342.203.488.348.713.721.713 1.883 0 2.6-.719.721-1.889.721-2.609 0-.719-.719-.719-1.879 0-2.6.177-.17.381-.31.6-.406V8.835c-.217-.095-.421-.235-.6-.405-.545-.545-.676-1.342-.396-2.009L7.636 3.7.45 10.881c-.6.605-.6 1.584 0 2.189l10.48 10.477c.604.604 1.582.604 2.186 0l10.43-10.43c.605-.603.605-1.582 0-2.187"/></svg>
+          </div>
+          <h3>Git</h3>
+          <div class="tech__bar"><div class="tech__fill" style="--p:75%"></div></div>
+          <span class="tech__pct">75%</span>
+        </div>
+
+        <div class="tech__card" data-aos data-delay="60">
+          <div class="tech__icon tech__icon--figma">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M15.852 8.981h-4.588V0h4.588c2.476 0 4.49 2.014 4.49 4.49s-2.014 4.491-4.49 4.491zM12.735 7.51h3.117c1.665 0 3.019-1.355 3.019-3.019s-1.355-3.019-3.019-3.019h-3.117V7.51zm0 1.471H8.148c-2.476 0-4.49-2.014-4.49-4.49S5.672 0 8.148 0h4.588v8.981zm-4.587-7.51c-1.665 0-3.019 1.355-3.019 3.019s1.354 3.02 3.019 3.02h3.117V1.471H8.148zm4.587 15.019H8.148c-2.476 0-4.49-2.014-4.49-4.49s2.014-4.49 4.49-4.49h4.588v8.98zM8.148 8.981c-1.665 0-3.019 1.355-3.019 3.019s1.355 3.019 3.019 3.019h3.117V8.981H8.148zM8.172 24c-2.489 0-4.515-2.014-4.515-4.49s2.014-4.49 4.49-4.49h4.588v4.441c0 2.503-2.047 4.539-4.563 4.539zm-.024-7.51a3.023 3.023 0 0 0-3.019 3.019c0 1.665 1.365 3.019 3.044 3.019 1.705 0 3.093-1.376 3.093-3.068v-2.97H8.148zm7.704 0h-.098c-2.476 0-4.49-2.014-4.49-4.49s2.014-4.49 4.49-4.49h.098c2.476 0 4.49 2.014 4.49 4.49s-2.014 4.49-4.49 4.49zm0-7.509c-1.665 0-3.019 1.355-3.019 3.019s1.355 3.019 3.019 3.019h.098c1.665 0 3.019-1.355 3.019-3.019s-1.355-3.019-3.019-3.019h-.098z"/></svg>
+          </div>
+          <h3>Figma</h3>
+          <div class="tech__bar"><div class="tech__fill" style="--p:80%"></div></div>
+          <span class="tech__pct">80%</span>
+        </div>
+
+        <div class="tech__card" data-aos data-delay="120">
+          <div class="tech__icon tech__icon--tailwind">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.001 4.8c-3.2 0-5.2 1.6-6 4.8 1.2-1.6 2.6-2.2 4.2-1.8.913.228 1.565.89 2.288 1.624C13.666 10.618 15.027 12 18.001 12c3.2 0 5.2-1.6 6-4.8-1.2 1.6-2.6 2.2-4.2 1.8-.913-.228-1.565-.89-2.288-1.624C16.337 6.182 14.976 4.8 12.001 4.8zm-6 7.2c-3.2 0-5.2 1.6-6 4.8 1.2-1.6 2.6-2.2 4.2-1.8.913.228 1.565.89 2.288 1.624 1.177 1.194 2.538 2.576 5.512 2.576 3.2 0 5.2-1.6 6-4.8-1.2 1.6-2.6 2.2-4.2 1.8-.913-.228-1.565-.89-2.288-1.624C10.337 13.382 8.976 12 6.001 12z"/></svg>
+          </div>
+          <h3>TailwindCSS</h3>
+          <div class="tech__bar"><div class="tech__fill" style="--p:50%"></div></div>
+          <span class="tech__pct">50%</span>
+        </div>
+
+        <div class="tech__card" data-aos data-delay="180">
+          <div class="tech__icon tech__icon--node">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M11.998 24c-.321 0-.641-.084-.922-.247l-2.936-1.737c-.438-.245-.224-.331-.08-.381.585-.203.703-.25 1.328-.604.065-.037.151-.023.218.017l2.256 1.339c.082.045.198.045.272 0l8.795-5.076c.082-.047.134-.141.134-.238V6.921c0-.099-.053-.19-.137-.242l-8.791-5.072c-.081-.047-.189-.047-.271 0L3.075 6.68c-.084.053-.139.146-.139.241v10.15c0 .097.055.189.139.235l2.409 1.392c1.307.654 2.108-.116 2.108-.891V7.787c0-.142.114-.253.256-.253h1.115c.139 0 .255.112.255.253v10.021c0 1.745-.95 2.745-2.604 2.745-.508 0-.909 0-2.026-.551L2.28 18.675c-.57-.329-.922-.943-.922-1.594V6.921c0-.658.352-1.269.922-1.594l8.795-5.082c.557-.315 1.296-.315 1.848 0l8.794 5.082c.57.325.926.935.926 1.594v10.16c0 .654-.356 1.267-.926 1.594l-8.794 5.076c-.28.163-.6.247-.925.247zm2.718-6.988c-3.852 0-4.659-1.769-4.659-3.255 0-.142.114-.253.256-.253h1.138c.127 0 .233.092.252.217.172 1.161.684 1.747 3.013 1.747 1.854 0 2.643-.419 2.643-1.403 0-.567-.224-.988-3.108-1.271-2.409-.239-3.898-.77-3.898-2.695 0-1.774 1.496-2.831 4.005-2.831 2.816 0 4.208 1.009 4.386 3.176.007.073-.018.145-.064.199-.048.053-.115.083-.187.083h-1.141c-.12 0-.226-.085-.249-.202-.277-1.26-.949-1.665-2.745-1.665-2.022 0-2.258.704-2.258 1.233 0 .641.279.827 3.013 1.188 2.708.357 3.994.861 3.994 2.763 0 1.914-1.598 3.019-4.391 3.019z"/></svg>
+          </div>
+          <h3>Node.js</h3>
+          <div class="tech__bar"><div class="tech__fill" style="--p:55%"></div></div>
+          <span class="tech__pct">55%</span>
+        </div>
+
+        <div class="tech__card" data-aos data-delay="240">
+          <div class="tech__icon tech__icon--responsive">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/><rect x="14" y="9" width="6" height="9" rx="1"/></svg>
+          </div>
+          <h3>Responsivo</h3>
+          <div class="tech__bar"><div class="tech__fill" style="--p:88%"></div></div>
+          <span class="tech__pct">88%</span>
+        </div>
+
+        <div class="tech__card" data-aos data-delay="300">
+          <div class="tech__icon tech__icon--api">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+          </div>
+          <h3>REST APIs</h3>
+          <div class="tech__bar"><div class="tech__fill" style="--p:60%"></div></div>
+          <span class="tech__pct">60%</span>
+        </div>
+
+        <div class="tech__card" data-aos data-delay="360">
+          <div class="tech__icon tech__icon--access">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></svg>
+          </div>
+          <h3>Acessibilidade</h3>
+          <div class="tech__bar"><div class="tech__fill" style="--p:72%"></div></div>
+          <span class="tech__pct">72%</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJETOS -->
+  <section class="projetos section--alt" id="projetos">
+    <div class="container">
+      <div class="section__header" data-aos>
+        <p class="section__eyebrow">TRABALHOS</p>
+        <h2 class="section__title">Meus <span class="gradient-text">Projetos</span></h2>
+        <p class="section__subtitle">Uma seleção dos projetos que me tornaram uma desenvolvedora que merece a pena de aprender.</p>
+      </div>
+
+      <!-- Filtros -->
+      <div class="projetos__filters" data-aos>
+        <button class="filter-btn active" data-filter="all">Todos</button>
+        <button class="filter-btn" data-filter="react">React</button>
+        <button class="filter-btn" data-filter="htmlcss">HTML/CSS</button>
+        <button class="filter-btn" data-filter="js">JavaScript</button>
+      </div>
+
+      <!-- Grid de projetos -->
+      <div class="projetos__grid" id="projectsGrid">
+
+        <div class="project-card" data-category="htmlcss" data-aos data-delay="0">
+          <div class="project-card__img project-card__img--1">
+            <img src="assets/img/brasileirao.png" alt="Print da tela" style="width: 100%; height: 100%; object-fit: cover;">
+            <div class="project-card__overlay">
+              <span class="project-card__label">Plataforma Esportiva</span>
+            </div>
+          </div>
+          <div class="project-card__body">
+            <h3>Brasileirão 2026 (Foco em CRUD)</h3>
+            <p>Um site vibrante dedicado ao maior campeonato de futebol do Brasil. Um sistema web dinâmico e responsivo para o gerenciamento de equipes (seleções) e exibição de jogadores do Brasileirão 2026.
+            </p>
+            <div class="project-card__tags">
+              <span class="tag tag--react">Html</span>
+              <span class="tag tag--node">CSS</span>
+              <span class="tag tag--tailwind">JavaScript</span>
+            </div>
+            <div class="project-card__actions">
+              <a href="#" class="project-link"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg> Código</a>
+              <a href="#" class="project-link"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg> Demo</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="js" data-aos data-delay="100">
+          <div class="project-card__img project-card__img--2">
+            <img src="assets/img/icarus.png" alt="Print da tela" style="width: 100%; height: 100%; object-fit: cover;">
+            <div class="project-card__overlay">
+              <span class="project-card__label">Landing Page</span>
+            </div>
+          </div>
+          <div class="project-card__body">
+            <h3>Icarus Online</h3>
+            <p>Uma página imersiva e com visual épico para promover o jogo de fantasia Icarus Online.</p>
+            <div class="project-card__tags">
+              <span class="tag tag--js">JavaScript</span>
+              <span class="tag tag--css">CSS3</span>
+            </div>
+            <div class="project-card__actions">
+              <a href="#" class="project-link"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg> Código</a>
+              <a href="#" class="project-link"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg> Demo</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="htmlcss" data-aos data-delay="200">
+          <div class="project-card__img project-card__img--3">
+            <img src="assets/img/strangerthings.png" alt="Print da tela" style="width: 100%; height: 100%; object-fit: cover;">
+            <div class="project-card__overlay">
+              <span class="project-card__label">Fã-Site</span>
+            </div>
+          </div>
+          <div class="project-card__body">
+            <h3>Stranger Things</h3>
+            <p>Uma landing page imersiva para os fãs da série, capturando a atmosfera sombria e nostálgica de Hawkins.</p>
+            <div class="project-card__tags">
+              <span class="tag tag--html">Html</span>
+              <span class="tag tag--css">CSS</span>
+            </div>
+            <div class="project-card__actions">
+              <a href="#" class="project-link"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg> Código</a>
+              <a href="#" class="project-link"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg> Demo</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section class="contato section--dark" id="contato">
+    <div class="container">
+      <div class="section__header" data-aos>
+        <p class="section__eyebrow">CONTATO</p>
+        <h2 class="section__title">Vamos <span class="gradient-text">trabalhar juntos?</span></h2>
+        <p class="section__subtitle">Estou disponível para oportunidades de emprego, freelance e colaborações. Me manda uma mensagem!</p>
+      </div>
+
+      <div class="contato__inner">
+        <!-- Info -->
+        <div class="contato__info" data-aos>
+          <div class="contact-item">
+            <div class="contact-item__icon">
+              <a href="https://github.com/IsabelaSQ" aria-label="GitHub">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+          </a>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-item__icon">
+              <a href="https://www.linkedin.com/in/isabela-siqueira-013785128/" aria-label="LinkedIn">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            </a>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-item__icon">
+              <a href="mailto:isabela_siqueirasilva@hotmail.com" aria-label="Email">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 12.713l-11.985-9.713h23.97l-12.005 9.713zm0 2.574l-12-9.659v15.318h24v-15.318l-12 9.659z"/></svg>
+              </a>
+            </div>
+            <div>
+          </div>
+
+        <!-- Form -->
+        <div class="contato__form-wrap" data-aos data-delay="150">
+          <form class="contato__form" id="contactForm" action="https://formspree.io/f/mzdyokqk" method="POST">
+            <div class="form-group">
+              <label for="name">Nome</label>
+              <input type="text" id="name" name="name" placeholder="Seu nome" required />
+            </div>
+            <div class="form-group">
+              <label for="email">E-mail</label>
+              <input type="email" id="email" name="email" placeholder="seu@email.com" required />
+            </div>
+            <div class="form-group">
+              <label for="subject">Assunto</label>
+              <input type="text" id="subject" name="subject" placeholder="Ex: Freelance, Parceria, Projeto Novo" />
+            </div>
+            <div class="form-group">
+              <label for="message">Mensagem</label>
+              <textarea id="message" name="message" rows="5" placeholder="Conta mais sobre seu projeto..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary btn--full">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+              Enviar Mensagem
+            </button>
+            <p class="form-success" id="formSuccess">✓ Mensagem enviada com sucesso!</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__top">
+        <img src="assets/img/Logo.png" alt="logo" class="footer__logo">
+        <nav class="footer__nav">
+          <a href="#home">Home</a>
+          <a href="#sobre">Sobre</a>
+          <a href="#tecnologias">Tecnologias</a>
+          <a href="#projetos">Projetos</a>
+          <a href="#contato">Contato</a>
+        </nav>
+        <div class="footer__socials">
+          <a href="https://github.com/IsabelaSQ" aria-label="GitHub">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/isabela-siqueira-013785128/" aria-label="LinkedIn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          </a>
+          <a href="https://www.instagram.com/isa_siqueira03/" aria-label="Instagram">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>© 2025 Isabela Siqueira. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
